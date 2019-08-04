@@ -73,9 +73,13 @@ textarea {
 }
 
 .title {
-  background-color   : darkslategrey;
-  color              : #4fffb7;
-  /* background-color: lavender; */
+  background-color: darkslategrey;
+  color           : #4fffb7;
+  position        : fixed;
+  top             : 0;
+  left            : 0;
+  width           : 100%;
+  z-index         : 100;
 }
 
 .date {
