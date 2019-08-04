@@ -1,0 +1,89 @@
+* {
+  padding   : 0;
+  margin    : 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  text-align: center;
+  padding   : 1rem 0;
+  color     : #248e59;
+  ;
+}
+
+form {
+  position : relative;
+  margin   : 0 auto 1rem auto;
+  width    : 100%;
+  max-width: 500px;
+  min-width: 150px;
+}
+
+label,
+textarea,
+input {
+  width  : 100%;
+  padding: .3rem 0;
+  margin : .5rem 0;
+}
+
+p {
+  margin: 0.5rem 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+textarea {
+  resize: none;
+}
+
+.container {
+  width  : 75vw;
+  margin : 1.3rem auto;
+  padding: 1rem 0 .1rem 0;
+}
+
+.billets {
+  margin          : 1.3rem auto;
+  background-color: #daf1ee;
+}
+
+.billet {
+  margin: 0;
+}
+
+.billet_title {
+  color           : wheat;
+  background-color: darkslategrey;
+  text-align      : center;
+  padding         : 5px 15px;
+}
+
+.billet_content {
+  background-color: #daf1ee;
+  text-align      : justify;
+  padding         : 5px 20px;
+}
+
+.comment {
+  padding-top: 0.5rem;
+}
+
+.title {
+  background-color   : darkslategrey;
+  color              : #4fffb7;
+  /* background-color: lavender; */
+}
+
+.date {
+  opacity  : .7;
+  font-size: 85%;
+}
+
+.comment_msg {
+  padding-left: 0.7rem;
+  color       : #35846e;
+}
